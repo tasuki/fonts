@@ -1,52 +1,63 @@
-Titillium Web: 400,400i,700,czech,sans
-Roboto: 400,400i,700,czech,sans
-Lato: 400,400i,700,sans
-Open Sans: 400,400i,700,czech,sans
-Source Sans Pro: 400,400i,700,czech,sans
-Ubuntu: 400,400i,700,czech,sans
-Raleway: 400,400i,700,czech,sans
-Dosis: 400,700,czech,sans
+tags:
+    - 400i
+    - 700
+    - czech
+    - sans
+    - serif
+    - slab
+    - num-aligned
+    - num-hanging
 
-PT Serif: 400,400i,700,czech,serif
-Noto Serif: 400,400i,700,czech,serif
-Noticia Text: 400,400i,700,czech,serif
-Alegreya: 400,400i,700,czech,serif
-Goudy Bookletter 1911: 400,serif
-Sorts Mill Goudy: 400,400i,czech,serif
-Cardo: 400,400i,700,czech,serif
-Poly: 400,400i,serif
-Fjord One: 400,serif
-Andada: 400,czech,serif
-Merriweather: 400,400i,700,czech,serif
-Libre Baskerville: 400,400i,700,czech,serif
-Prociono: 400,serif
-Fanwood Text: 400,400i,serif
-Lora: 400,400i,700,czech,serif
-Domine: 400,700,czech,serif
-Gentium Book Basic: 400,400i,700,czech,serif
+fonts:
+    Titillium Web: 400,400i,700,czech,sans,num-aligned
+    Roboto: 400,400i,700,czech,sans,num-aligned
+    Lato: 400,400i,700,sans,num-aligned
+    Open Sans: 400,400i,700,czech,sans,num-aligned
+    Source Sans Pro: 400,400i,700,czech,sans,num-aligned
+    Ubuntu: 400,400i,700,czech,sans,num-aligned
+    Raleway: 400,400i,700,czech,sans,num-hanging
+    Dosis: 400,700,czech,sans
 
-Bitter: 400,400i,700,slab
-Bree Serif: 400,czech,slab
-Roboto Slab: 400,400i,700,czech,slab
-Arvo: 400,400i,700,slab
-Patua One: 400,slab
-Crete Round: 400,400i,czech,slab
-Bevan: 400,slab
-Alfa Slab One: 400,slab
-Enriqueta: 400,700,czech,slab
-Copse: 400,slab
-Ultra: 400,slab
+    PT Serif: 400,400i,700,czech,serif,num-aligned
+    Noto Serif: 400,400i,700,czech,serif,num-aligned
+    Noticia Text: 400,400i,700,czech,serif
+    Alegreya: 400,400i,700,czech,serif,num-hanging
+    Goudy Bookletter 1911: 400,serif,num-hanging
+    Sorts Mill Goudy: 400,400i,czech,serif,num-hanging
+    Cardo: 400,400i,700,czech,serif,num-aligned
+    Poly: 400,400i,serif,num-hanging
+    Fjord One: 400,serif,num-hanging
+    Andada: 400,czech,serif
+    Merriweather: 400,400i,700,czech,serif,num-hanging
+    Libre Baskerville: 400,400i,700,czech,serif
+    Prociono: 400,serif,num-aligned,num-hanging
+    Fanwood Text: 400,400i,serif,num-aligned,num-hanging
+    Lora: 400,400i,700,czech,serif
+    Domine: 400,700,czech,serif
+    Gentium Book Basic: 400,400i,700,czech,serif,num-aligned
 
-Playfair Display: 400,400i,700,czech,didone
-Abril Fatface: 400,czech,didone
-Arapey: 400,400i,700
-Oswald: 400,700,czech
-Fjalla One: 400,czech
-Lobster: 400,czech
-Lobster Two: 400,400i,700
-Passion One: 400,700
-Anton: 400,czech
-Acme: 400
-Amaranth: 400,400i,700
-Changa One: 400,400i
-Signika: 400,700,czech
+    Bitter: 400,400i,700,slab
+    Bree Serif: 400,czech,slab
+    Roboto Slab: 400,400i,700,czech,slab
+    Arvo: 400,400i,700,slab
+    Patua One: 400,slab
+    Crete Round: 400,400i,czech,slab,num-hanging
+    Enriqueta: 400,700,czech,slab,num-hanging
+    Copse: 400,slab,num-aligned
+    Bevan: 400,slab
+    Alfa Slab One: 400,slab
+    Ultra: 400,slab
+
+    Playfair Display: 400,400i,700,czech,didone
+    Abril Fatface: 400,czech,didone
+    Arapey: 400,400i,700,num-aligned
+    Oswald: 400,700,czech
+    Fjalla One: 400
+    Lobster: 400,czech
+    Lobster Two: 400,400i,700
+    Anton: 400,czech
+    Passion One: "400,700"
+    Changa One: 400,400i,num-aligned
+    Amaranth: 400,400i,700
+    Signika: 400,700,czech,num-aligned
+    Acme: 400

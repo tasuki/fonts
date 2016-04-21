@@ -26,12 +26,15 @@ class Font {
 }
 
 $yamlParser = new Symfony\Component\Yaml\Parser;
-$fontList = $yamlParser->parse(file_get_contents('fonts.yaml'));
+$data = $yamlParser->parse(file_get_contents('fonts.yaml'));
 
 $fonts = [];
-foreach ($fontList as $name => $tagList) {
+foreach ($data['fonts'] as $name => $tagList) {
     $fonts[] = new Font($name, $tagList);
 }
 
 $twig = new Twig_Environment(new Twig_Loader_Filesystem('.'));
-echo $twig->render('template.html.twig', array('fonts' => $fonts));
+echo $twig->render('template.html.twig', [
+    'tags' => $data['tags'],
+    'fonts' => $fonts,
+]);

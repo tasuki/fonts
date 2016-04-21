@@ -2,26 +2,45 @@
 <head>
     <title>Favourite fonts comparison</title>
 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.3.min.js"></script>
+
     {% for font in fonts %}
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family={{ font.urlName }}:{{ font.weights }}&subset=latin,latin-ext">
     {% endfor %}
 
     <style>
-        a { color: #bc360a; }
+        body { font-family: "Open Sans" }
+        a { color: #b30; text-decoration: none; }
         p { margin: 0px; padding: 0px 5px; }
         hr { border: 0px; height: 1px; background: #CCC; }
         .container { position: relative; clear: both; padding: 10px 0px; }
+        .pill { color: #b30; background-color: #f9efe9; border-radius: 5px; padding: 7px 15px; }
+        .pill.selected { color: #fff; background-color: #b30; }
         .box { float: left; }
         .big { width: 35%; font-size: 32px; line-height: 36px; }
         .number { width: 15%; font-size: 32px; line-height: 36px; }
         .small { width: 25%; font-size: 14px; line-height: 18px; }
         .tiny { width: 25%; font-size: 10px; line-height: 12px; }
     </style>
+    <script type="text/javascript">
+        $(function() {
+            $('.pill').click(function() {
+                $(this).toggleClass('selected');
+                return false;
+            });
+        });
+    </script>
 </head>
 <body>
 
+<div class="container">
+    {% for tag in tags %}
+        <a href="" class="pill">{{ tag }}</a>
+    {% endfor %}
+</div>
+
 {% for font in fonts %}
-    <div class="container">
+    <div class="container" data-tags="{{ font.tags|join(' ') }}">
         <div class="font"><a href="https://www.google.com/fonts/specimen/{{ font.urlName }}">{{ font.name }}</a></div>
         <div class="box big" style="font-family: '{{ font.name }}'">
             {% if font.hasTag('400') %}Hamburgefonstijvyffi<br>{% endif %}
