@@ -16,7 +16,7 @@ class Font {
 
     public function urlName()
     {
-        return str_replace($this->name);
+        return str_replace(' ', '+', $this->name);
     }
 
     public function hasTag($tag)
