@@ -35,6 +35,7 @@ $fonts = [
     'Slab' => [
         'Bitter' => ['ext' => false, 'weights' => ['400', '400i', '700']],
         'Bree Serif' => ['ext' => true, 'weights' => ['400']],
+        'Roboto Slab' => ['ext' => true, 'weights' => ['400', '400i', '700']],
         'Rokkitt' => ['ext' => false, 'weights' => ['400', '700']],
         'Arvo' => ['ext' => false, 'weights' => ['400', '400i', '700']],
         'Patua One' => ['ext' => false, 'weights' => ['400']],
@@ -60,6 +61,7 @@ $fonts = [
         'Amaranth' => ['ext' => false, 'weights' => ['400', '400i', '700']],
         'Changa One' => ['ext' => false, 'weights' => ['400', '400i']],
         'Signika' => ['ext' => true, 'weights' => ['400', '700']],
+        'Aller' => ['ext' => true, 'weights' => ['400', '400i', '700']],
     ],
 ];
 
@@ -85,9 +87,10 @@ foreach ($fonts as $category) {
         hr { border: 0px; height: 1px; background: #CCC; }
         .container { position: relative; clear: both; padding: 10px 0px; }
         .box { float: left; }
-        .big { width: 40%; font-size: 32px; line-height: 36px; }
-        .small { width: 30%; font-size: 14px; line-height: 18px; }
-        .tiny { width: 30%; font-size: 10px; line-height: 12px; }
+        .big { width: 35%; font-size: 32px; line-height: 36px; }
+        .number { width: 15%; font-size: 32px; line-height: 36px; }
+        .small { width: 25%; font-size: 14px; line-height: 18px; }
+        .tiny { width: 25%; font-size: 10px; line-height: 12px; }
     </style>
 </head>
 <body>
@@ -104,6 +107,12 @@ foreach ($fonts as $category) {
                 <?php if ($ext) echo "Hámbůřgěfóňšťíjvý<br>" ?>
                 <?php if (in_array('400i', $weights)) echo "<em>Hamburgefonstijvyffi</em><br>" ?>
                 <?php if (in_array('700',  $weights)) echo "<strong>Hamburgefonstijvyffi</strong><br>" ?>
+            </div>
+
+            <div class="box number" style="font-family: '<?php echo $font ?>'">
+                1234567890<br>
+                1111111111<br>
+                0000000000<br>
             </div>
 
             <div class="box small" style="font-family: '<?php echo $font ?>'">
