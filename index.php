@@ -83,66 +83,7 @@ foreach ($fontList as $name => $tagList) {
     $fonts[] = new Font($name, $tagList);
 }
 
-?>
-<html>
-<head>
-    <title>Favourite fonts comparison</title>
-<?php
+require_once('./vendor/autoload.php');
+$twig = new Twig_Environment(new Twig_Loader_Filesystem('.'));
 
-foreach ($fonts as $font) {
-    ?>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=<?php echo $font->urlName() ?>:<?php echo $font->weights() ?>&subset=latin,latin-ext">
-    <?php
-}
-
-?>
-    <style>
-        a { color: #bc360a; }
-        p { margin: 0px; padding: 0px 5px; }
-        hr { border: 0px; height: 1px; background: #CCC; }
-        .container { position: relative; clear: both; padding: 10px 0px; }
-        .box { float: left; }
-        .big { width: 35%; font-size: 32px; line-height: 36px; }
-        .number { width: 15%; font-size: 32px; line-height: 36px; }
-        .small { width: 25%; font-size: 14px; line-height: 18px; }
-        .tiny { width: 25%; font-size: 10px; line-height: 12px; }
-    </style>
-</head>
-<body>
-<?php
-
-foreach ($fonts as $font) {
-    ?>
-    <div class="container">
-        <div class="font"><a href="https://www.google.com/fonts/specimen/<?php echo $font->urlName() ?>"><?php echo $font->name ?></a></div>
-        <div class="box big" style="font-family: '<?php echo $font->name ?>'">
-            <?php if ($font->hasTag('400')) echo "Hamburgefonstijvyffi<br>" ?>
-            <?php if ($font->hasTag('czech')) echo "Hámbůřgěfóňšťíjvý<br>" ?>
-            <?php if ($font->hasTag('400i')) echo "<em>Hamburgefonstijvyffi</em><br>" ?>
-            <?php if ($font->hasTag('700')) echo "<strong>Hamburgefonstijvyffi</strong><br>" ?>
-        </div>
-
-        <div class="box number" style="font-family: '<?php echo $font->name ?>'">
-            1234567890<br>
-            1111111111<br>
-            0000000000<br>
-        </div>
-
-        <div class="box small">
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-
-        <div class="box tiny" style="font-family: '<?php echo $font->name ?>'">
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-    </div>
-    <?php
-}
-?>
-</body>
-</html>
+echo $twig->render('template.html.twig', array('fonts' => $fonts));

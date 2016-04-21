@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Favourite fonts comparison</title>
+
+    {% for font in fonts %}
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family={{ font.urlName }}:{{ font.weights }}&subset=latin,latin-ext">
+    {% endfor %}
+
+    <style>
+        a { color: #bc360a; }
+        p { margin: 0px; padding: 0px 5px; }
+        hr { border: 0px; height: 1px; background: #CCC; }
+        .container { position: relative; clear: both; padding: 10px 0px; }
+        .box { float: left; }
+        .big { width: 35%; font-size: 32px; line-height: 36px; }
+        .number { width: 15%; font-size: 32px; line-height: 36px; }
+        .small { width: 25%; font-size: 14px; line-height: 18px; }
+        .tiny { width: 25%; font-size: 10px; line-height: 12px; }
+    </style>
+</head>
+<body>
+
+{% for font in fonts %}
+    <div class="container">
+        <div class="font"><a href="https://www.google.com/fonts/specimen/{{ font.urlName }}">{{ font.name }}</a></div>
+        <div class="box big" style="font-family: '{{ font.name }}'">
+            {% if font.hasTag('400') %}Hamburgefonstijvyffi<br>{% endif %}
+            {% if font.hasTag('czech') %}Hámbůřgěfóňšťíjvý<br>{% endif %}
+            {% if font.hasTag('400i') %}<em>Hamburgefonstijvyffi</em><br>{% endif %}
+            {% if font.hasTag('700') %}<strong>Hamburgefonstijvyffi</strong><br>{% endif %}
+        </div>
+
+        <div class="box number" style="font-family: '{{ font.name }}'">
+            1234567890<br>
+            1111111111<br>
+            0000000000<br>
+        </div>
+
+        <div class="box small" style="font-family: '{{ font.name }}'">
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+
+        <div class="box tiny" style="font-family: '{{ font.name }}'">
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+
+{% endfor %}
+</body>
+</html>
