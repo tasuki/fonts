@@ -5,35 +5,37 @@ tags:
     - sans
     - serif
     - slab
+    - didone
     - num-aligned
     - num-hanging
+    - ligatures
 
 fonts:
     Titillium Web: 400,400i,700,czech,sans,num-aligned
-    Roboto: 400,400i,700,czech,sans,num-aligned
-    Lato: 400,400i,700,sans,num-aligned
+    Roboto: 400,400i,700,czech,sans,num-aligned,ligatures
+    Lato: 400,400i,700,sans,num-aligned,ligatures
     Open Sans: 400,400i,700,czech,sans,num-aligned
     Source Sans Pro: 400,400i,700,czech,sans,num-aligned
     Ubuntu: 400,400i,700,czech,sans,num-aligned
-    Raleway: 400,400i,700,czech,sans,num-hanging
-    Dosis: 400,700,czech,sans
+    Raleway: 400,400i,700,czech,sans,num-hanging,ligatures
+    Dosis: 400,700,czech,sans,ligatures
 
-    PT Serif: 400,400i,700,czech,serif,num-aligned
+    PT Serif: 400,400i,700,czech,serif,num-aligned,ligatures
     Noto Serif: 400,400i,700,czech,serif,num-aligned
     Noticia Text: 400,400i,700,czech,serif
-    Alegreya: 400,400i,700,czech,serif,num-hanging
-    Goudy Bookletter 1911: 400,serif,num-hanging
-    Sorts Mill Goudy: 400,400i,czech,serif,num-hanging
-    Cardo: 400,400i,700,czech,serif,num-aligned
-    Poly: 400,400i,serif,num-hanging
+    Alegreya: 400,400i,700,czech,serif,num-hanging,ligatures
+    Goudy Bookletter 1911: 400,serif,num-hanging,ligatures
+    Sorts Mill Goudy: 400,400i,czech,serif,num-hanging,ligatures
+    Cardo: 400,400i,700,czech,serif,num-aligned,ligatures
+    Poly: 400,400i,serif,num-hanging,ligatures
     Fjord One: 400,serif,num-hanging
-    Andada: 400,czech,serif
+    Andada: 400,czech,serif,ligatures
     Merriweather: 400,400i,700,czech,serif,num-hanging
-    Libre Baskerville: 400,400i,700,czech,serif
-    Prociono: 400,serif,num-aligned,num-hanging
-    Fanwood Text: 400,400i,serif,num-aligned,num-hanging
+    Libre Baskerville: 400,400i,700,czech,serif,ligatures
+    Prociono: 400,serif,num-aligned,num-hanging,ligatures
+    Fanwood Text: 400,400i,serif,num-aligned,num-hanging,ligatures
     Lora: 400,400i,700,czech,serif
-    Domine: 400,700,czech,serif
+    Domine: 400,700,czech,serif,ligatures
     Gentium Book Basic: 400,400i,700,czech,serif,num-aligned
 
     Bitter: 400,400i,700,slab
@@ -48,16 +50,16 @@ fonts:
     Alfa Slab One: 400,slab
     Ultra: 400,slab
 
-    Playfair Display: 400,400i,700,czech,didone
-    Abril Fatface: 400,czech,didone
-    Arapey: 400,400i,700,num-aligned
+    Playfair Display: 400,400i,700,czech,didone,ligatures
+    Abril Fatface: 400,czech,didone,ligatures
+    Arapey: 400,400i,700,didone,num-aligned,ligatures
     Oswald: 400,700,czech
     Fjalla One: 400
-    Lobster: 400,czech
-    Lobster Two: 400,400i,700
+    Lobster: 400,czech,ligatures
+    Lobster Two: 400,400i,700,ligatures
     Anton: 400,czech
     Passion One: "400,700"
-    Changa One: 400,400i,num-aligned
+    Changa One: 400,400i,num-aligned,ligatures
     Amaranth: 400,400i,700
     Signika: 400,700,czech,num-aligned
-    Acme: 400
+    Acme: 400,ligatures
