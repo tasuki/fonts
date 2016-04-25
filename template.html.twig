@@ -2,11 +2,12 @@
 <head>
     <title>Favourite fonts comparison</title>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.3.min.js"></script>
-
     {% for font in fonts %}
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family={{ font.urlName }}:{{ font.weights }}&subset=latin,latin-ext">
     {% endfor %}
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="fonts.js"></script>
 
     <style>
         body { font-family: "Open Sans" }
@@ -22,14 +23,6 @@
         .small { width: 25%; font-size: 14px; line-height: 18px; }
         .tiny { width: 25%; font-size: 10px; line-height: 12px; }
     </style>
-    <script type="text/javascript">
-        $(function() {
-            $('.pill').click(function() {
-                $(this).toggleClass('selected');
-                return false;
-            });
-        });
-    </script>
 </head>
 <body>
 
@@ -40,11 +33,11 @@
 </div>
 
 {% for font in fonts %}
-    <div class="container" data-tags="{{ font.tags|join(' ') }}">
-        <div class="font"><a href="https://www.google.com/fonts/specimen/{{ font.urlName }}">{{ font.name }}</a></div>
+    <div class="container font-container" data-tags="{{ font.tags|join(' ') }}">
+        <div><a href="https://www.google.com/fonts/specimen/{{ font.urlName }}">{{ font.name }}</a></div>
         <div class="box big" style="font-family: '{{ font.name }}'">
             {% if font.hasTag('400') %}Hamburgefonstijvyffi<br>{% endif %}
-            {% if font.hasTag('czech') %}Hámbůřgěfóňšťíjvý<br>{% endif %}
+            {% if font.hasTag('czech') %}Hámbůřgěfóňšťíjvý ąłęźż<br>{% endif %}
             {% if font.hasTag('400i') %}<em>Hamburgefonstijvyffi</em><br>{% endif %}
             {% if font.hasTag('700') %}<strong>Hamburgefonstijvyffi</strong><br>{% endif %}
         </div>
