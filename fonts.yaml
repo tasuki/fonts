@@ -2,10 +2,14 @@ tags:
     - 400i
     - 700
     - czech
-    - sans
     - serif
-    - slab
+    - sans
+    - script
+    - old-style
+    - transitional
     - didone
+    - slab
+    - gothic
     - num-aligned
     - num-hanging
     - ligatures
@@ -20,43 +24,43 @@ fonts:
     Raleway: 400, 400i, 700, czech, sans, num-hanging, ligatures
     Dosis: 400, 700, czech, sans, ligatures
 
-    PT Serif: 400, 400i, 700, czech, serif, num-aligned, ligatures
-    Noto Serif: 400, 400i, 700, czech, serif, num-aligned
-    Noticia Text: 400, 400i, 700, czech, serif
-    Alegreya: 400, 400i, 700, czech, serif, num-hanging, ligatures
-    Goudy Bookletter 1911: 400, serif, num-hanging, ligatures
-    Sorts Mill Goudy: 400, 400i, czech, serif, num-hanging, ligatures
-    Cardo: 400, 400i, 700, czech, serif, num-aligned, ligatures
-    Poly: 400, 400i, serif, num-hanging, ligatures
-    Fjord One: 400, serif, num-hanging
-    Andada: 400, czech, serif, ligatures
-    Merriweather: 400, 400i, 700, czech, serif, num-hanging
-    Libre Baskerville: 400, 400i, 700, czech, serif, ligatures
-    Prociono: 400, serif, num-aligned, num-hanging, ligatures
-    Fanwood Text: 400, 400i, serif, num-aligned, num-hanging, ligatures
-    Lora: 400, 400i, 700, czech, serif
-    Domine: 400, 700, czech, serif, ligatures
-    Gentium Book Basic: 400, 400i, 700, czech, serif, num-aligned
+    PT Serif: 400, 400i, 700, czech, serif, transitional, num-aligned, ligatures
+    Noto Serif: 400, 400i, 700, czech, serif, transitional, num-aligned
+    Noticia Text: 400, 400i, 700, czech, serif, slab
+    Alegreya: 400, 400i, 700, czech, serif, old-style, num-hanging, ligatures
+    Goudy Bookletter 1911: 400, serif, old-style, num-hanging, ligatures
+    Sorts Mill Goudy: 400, 400i, czech, serif, old-style, num-hanging, ligatures
+    Cardo: 400, 400i, 700, czech, serif, old-style, num-aligned, ligatures
+    Poly: 400, 400i, serif, transitional, num-hanging, ligatures
+    Fjord One: 400, serif, slab, num-hanging
+    Andada: 400, czech, serif, slab, ligatures
+    Merriweather: 400, 400i, 700, czech, serif, transitional, num-hanging
+    Libre Baskerville: 400, 400i, 700, czech, serif, old-style, ligatures
+    Prociono: 400, serif, transitional, num-aligned, num-hanging, ligatures
+    Fanwood Text: 400, 400i, serif, old-style, num-aligned, num-hanging, ligatures
+    Lora: 400, 400i, 700, czech, serif, transitional
+    Domine: 400, 700, czech, serif, transitional, ligatures
+    Gentium Book Basic: 400, 400i, 700, czech, serif, transitional, num-aligned
 
-    Bitter: 400, 400i, 700, slab
-    Bree Serif: 400, czech, slab
-    Roboto Slab: 400, 400i, 700, czech, slab
-    Arvo: 400, 400i, 700, slab
-    Patua One: 400, slab
-    Crete Round: 400, 400i, czech, slab, num-hanging
-    Enriqueta: 400, 700, czech, slab, num-hanging
-    Copse: 400, slab, num-aligned
-    Bevan: 400, slab
-    Alfa Slab One: 400, slab
-    Ultra: 400, slab
+    Bitter: 400, 400i, 700, serif, slab
+    Bree Serif: 400, czech, serif, slab
+    Roboto Slab: 400, 400i, 700, czech, serif, slab
+    Arvo: 400, 400i, 700, serif, slab
+    Patua One: 400, serif, slab
+    Crete Round: 400, 400i, czech, serif, slab, num-hanging
+    Enriqueta: 400, 700, czech, serif, slab, num-hanging
+    Copse: 400, serif, slab, num-aligned
+    Bevan: 400, serif, slab
+    Alfa Slab One: 400, serif, slab
+    Ultra: 400, serif, slab
 
-    Playfair Display: 400, 400i, 700, czech, didone, ligatures
-    Abril Fatface: 400, czech, didone, ligatures
-    Arapey: 400, 400i, 700, didone, num-aligned, ligatures
-    Oswald: 400, 700, czech
-    Fjalla One: 400
-    Lobster: 400, czech, ligatures
-    Lobster Two: 400, 400i, 700, ligatures
+    Playfair Display: 400, 400i, 700, czech, serif, didone, ligatures
+    Abril Fatface: 400, czech, serif, didone, ligatures
+    Arapey: 400, 400i, 700, serif, didone, num-aligned, ligatures
+    Oswald: 400, 700, czech, gothic
+    Fjalla One: 400, gothic
+    Lobster: 400, czech, script, ligatures
+    Lobster Two: 400, 400i, 700, script, ligatures
     Anton: 400, czech
     Passion One: 400, 700
     Changa One: 400, 400i, num-aligned, ligatures
