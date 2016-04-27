@@ -15,36 +15,43 @@ tags:
     - ligatures
 
 fonts:
+    Playfair Display: 400, 400i, 700, czech, serif, didone, ligatures
+    Alegreya: 400, 400i, 700, czech, serif, old-style, num-hanging, ligatures
+    PT Serif: 400, 400i, 700, czech, serif, transitional, num-aligned, ligatures
     Titillium Web: 400, 400i, 700, czech, sans, num-aligned
+    Sorts Mill Goudy: 400, 400i, czech, serif, old-style, num-hanging, ligatures
+    Noto Serif: 400, 400i, 700, czech, serif, transitional, num-aligned
+    Noticia Text: 400, 400i, 700, czech, serif, slab
     Roboto: 400, 400i, 700, czech, sans, num-aligned, ligatures
+    Roboto Slab: 400, 400i, 700, czech, serif, slab
     Lato: 400, 400i, 700, sans, num-aligned, ligatures
+    Ubuntu: 400, 400i, 700, czech, sans, num-aligned
+    Bitter: 400, 400i, 700, serif, slab
+    Goudy Bookletter 1911: 400, serif, old-style, num-hanging, ligatures
+
     Open Sans: 400, 400i, 700, czech, sans, num-aligned
     Source Sans Pro: 400, 400i, 700, czech, sans, num-aligned
-    Ubuntu: 400, 400i, 700, czech, sans, num-aligned
     Raleway: 400, 400i, 700, czech, sans, num-hanging, ligatures
     Dosis: 400, 700, czech, sans, ligatures
 
-    PT Serif: 400, 400i, 700, czech, serif, transitional, num-aligned, ligatures
-    Noto Serif: 400, 400i, 700, czech, serif, transitional, num-aligned
-    Noticia Text: 400, 400i, 700, czech, serif, slab
-    Alegreya: 400, 400i, 700, czech, serif, old-style, num-hanging, ligatures
-    Goudy Bookletter 1911: 400, serif, old-style, num-hanging, ligatures
-    Sorts Mill Goudy: 400, 400i, czech, serif, old-style, num-hanging, ligatures
     Cardo: 400, 400i, 700, czech, serif, old-style, num-aligned, ligatures
+    Andada: 400, czech, serif, slab, ligatures
     Poly: 400, 400i, serif, transitional, num-hanging, ligatures
     Fjord One: 400, serif, slab, num-hanging
-    Andada: 400, czech, serif, slab, ligatures
     Merriweather: 400, 400i, 700, czech, serif, transitional, num-hanging
     Libre Baskerville: 400, 400i, 700, czech, serif, old-style, ligatures
+
+    Trocchi: 400, czech, serif, didone, num-hanging
+    Kurale: 400, czech, serif
+    Almendra: 400, 400i, 700, czech, script, num-hanging
+
     Prociono: 400, serif, transitional, num-aligned, num-hanging, ligatures
     Fanwood Text: 400, 400i, serif, old-style, num-aligned, num-hanging, ligatures
     Lora: 400, 400i, 700, czech, serif, transitional
     Domine: 400, 700, czech, serif, transitional, ligatures
     Gentium Book Basic: 400, 400i, 700, czech, serif, transitional, num-aligned
 
-    Bitter: 400, 400i, 700, serif, slab
     Bree Serif: 400, czech, serif, slab
-    Roboto Slab: 400, 400i, 700, czech, serif, slab
     Arvo: 400, 400i, 700, serif, slab
     Patua One: 400, serif, slab
     Crete Round: 400, 400i, czech, serif, slab, num-hanging
@@ -54,7 +61,6 @@ fonts:
     Alfa Slab One: 400, serif, slab
     Ultra: 400, serif, slab
 
-    Playfair Display: 400, 400i, 700, czech, serif, didone, ligatures
     Abril Fatface: 400, czech, serif, didone, ligatures
     Arapey: 400, 400i, 700, serif, didone, num-aligned, ligatures
     Oswald: 400, 700, czech, gothic
