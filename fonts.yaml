@@ -17,6 +17,7 @@ tags:
 fonts:
     Playfair Display: 400, 400i, 700, czech, serif, didone, ligatures
     Alegreya: 400, 400i, 700, czech, serif, old-style, num-hanging, ligatures
+    Alegreya Sans: 400, 400i, 700, czech, sans, num-hanging, ligatures
     PT Serif: 400, 400i, 700, czech, serif, transitional, num-aligned, ligatures
     Titillium Web: 400, 400i, 700, czech, sans, num-aligned
     Sorts Mill Goudy: 400, 400i, czech, serif, old-style, num-hanging, ligatures
