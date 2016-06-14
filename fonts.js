@@ -2,7 +2,7 @@ $(function() {
     var pills = $('.pill');
     var containers = $('.font-container');
 
-    $('.pill').click(function() {
+    pills.click(function() {
         $(this).toggleClass('selected');
 
         var required = pills.filter(function(i, pill) {
