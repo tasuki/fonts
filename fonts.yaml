@@ -1,7 +1,7 @@
 tags:
     - 400i
     - 700
-    - czech
+    - latin-ext
     - serif
     - sans
     - script
@@ -15,81 +15,81 @@ tags:
     - ligatures
 
 fonts:
-    Playfair Display: 400, 400i, 700, czech, serif, didone, ligatures
-    Alegreya: 400, 400i, 700, czech, serif, old-style, num-hanging, ligatures
-    Alegreya Sans: 400, 400i, 700, czech, sans, num-hanging, ligatures
-    PT Serif: 400, 400i, 700, czech, serif, transitional, num-aligned, ligatures
-    Titillium Web: 400, 400i, 700, czech, sans, num-aligned
-    Sorts Mill Goudy: 400, 400i, czech, serif, old-style, num-hanging, ligatures
-    Rakkas: 400, czech, serif, ligatures
-    Eczar: 400, 700, czech, serif, slab
-    Noto Serif: 400, 400i, 700, czech, serif, transitional, num-aligned
-    Noticia Text: 400, 400i, 700, czech, serif, slab
-    Roboto: 400, 400i, 700, czech, sans, num-aligned, ligatures
-    Roboto Slab: 400, 400i, 700, czech, serif, slab
+    Playfair Display: 400, 400i, 700, latin-ext, serif, didone, ligatures
+    Alegreya: 400, 400i, 700, latin-ext, serif, old-style, num-hanging, ligatures
+    Alegreya Sans: 400, 400i, 700, latin-ext, sans, num-hanging, ligatures
+    PT Serif: 400, 400i, 700, latin-ext, serif, transitional, num-aligned, ligatures
+    Titillium Web: 400, 400i, 700, latin-ext, sans, num-aligned
+    Sorts Mill Goudy: 400, 400i, latin-ext, serif, old-style, num-hanging, ligatures
+    Rakkas: 400, latin-ext, serif, ligatures
+    Eczar: 400, 700, latin-ext, serif, slab
+    Noto Serif: 400, 400i, 700, latin-ext, serif, transitional, num-aligned
+    Noticia Text: 400, 400i, 700, latin-ext, serif, slab
+    Roboto: 400, 400i, 700, latin-ext, sans, num-aligned, ligatures
+    Roboto Slab: 400, 400i, 700, latin-ext, serif, slab
     Lato: 400, 400i, 700, sans, num-aligned, ligatures
-    Ubuntu: 400, 400i, 700, czech, sans, num-aligned
+    Ubuntu: 400, 400i, 700, latin-ext, sans, num-aligned
     Bitter: 400, 400i, 700, serif, slab
     Goudy Bookletter 1911: 400, serif, old-style, num-hanging, ligatures
 
-    Open Sans: 400, 400i, 700, czech, sans, num-aligned
-    Source Sans Pro: 400, 400i, 700, czech, sans, num-aligned
-    Raleway: 400, 400i, 700, czech, sans, num-hanging, ligatures
-    Dosis: 400, 700, czech, sans, ligatures
+    Open Sans: 400, 400i, 700, latin-ext, sans, num-aligned
+    Source Sans Pro: 400, 400i, 700, latin-ext, sans, num-aligned
+    Raleway: 400, 400i, 700, latin-ext, sans, num-hanging, ligatures
+    Dosis: 400, 700, latin-ext, sans, ligatures
 
-    Cardo: 400, 400i, 700, czech, serif, old-style, num-aligned, ligatures
-    Andada: 400, czech, serif, slab, ligatures
+    Cardo: 400, 400i, 700, latin-ext, serif, old-style, num-aligned, ligatures
+    Andada: 400, latin-ext, serif, slab, ligatures
 
     Mate: 400, 400i, serif, slab, num-aligned, num-hanging, ligatures
     Inika: 400, 700, serif, slab, num-hanging
-    Arbutus Slab: 400, czech, serif, slab
+    Arbutus Slab: 400, latin-ext, serif, slab
     Copse: 400, serif, slab, num-aligned
-    Glegoo: 400, 700, czech, serif, slab, num-aligned
-    Suez One: 400, czech, serif, slab, ligatures
-    Slabo 27px: 400, czech, serif, slab, num-hanging
-    Vesper Libre: 400, 700, czech, serif, slab, ligatures
+    Glegoo: 400, 700, latin-ext, serif, slab, num-aligned
+    Suez One: 400, latin-ext, serif, slab, ligatures
+    Slabo 27px: 400, latin-ext, serif, slab, num-hanging
+    Vesper Libre: 400, 700, latin-ext, serif, slab, ligatures
 
     Gilda Display: 400, serif, old-style, num-aligned, ligatures
-    EB Garamond: 400, czech, serif, old-style, num-hanging
+    EB Garamond: 400, latin-ext, serif, old-style, num-hanging
     Quattrocento: 400, 700, serif, old-style, ligatures
-    Cormorant: 400, 400i, 700, czech, serif, old-style, num-hanging, ligatures
+    Cormorant: 400, 400i, 700, latin-ext, serif, old-style, num-hanging, ligatures
     Aref Ruqaa: 400, 700, serif, num-aligned
 
     Poly: 400, 400i, serif, transitional, num-hanging, ligatures
     Fjord One: 400, serif, slab, num-hanging
-    Merriweather: 400, 400i, 700, czech, serif, transitional, num-hanging
-    Libre Baskerville: 400, 400i, 700, czech, serif, old-style, ligatures
+    Merriweather: 400, 400i, 700, latin-ext, serif, transitional, num-hanging
+    Libre Baskerville: 400, 400i, 700, latin-ext, serif, old-style, ligatures
 
-    Trocchi: 400, czech, serif, didone, num-hanging
-    Kurale: 400, czech, serif
-    Almendra: 400, 400i, 700, czech, script, num-hanging
+    Trocchi: 400, latin-ext, serif, didone, num-hanging
+    Kurale: 400, latin-ext, serif
+    Almendra: 400, 400i, 700, latin-ext, script, num-hanging
 
     Prociono: 400, serif, transitional, num-aligned, num-hanging, ligatures
     Fanwood Text: 400, 400i, serif, old-style, num-aligned, num-hanging, ligatures
-    Lora: 400, 400i, 700, czech, serif, transitional
-    Domine: 400, 700, czech, serif, transitional, ligatures
-    Gentium Book Basic: 400, 400i, 700, czech, serif, transitional, num-aligned
+    Lora: 400, 400i, 700, latin-ext, serif, transitional
+    Domine: 400, 700, latin-ext, serif, transitional, ligatures
+    Gentium Book Basic: 400, 400i, 700, latin-ext, serif, transitional, num-aligned
 
-    Bree Serif: 400, czech, serif, slab
+    Bree Serif: 400, latin-ext, serif, slab
     Arvo: 400, 400i, 700, serif, slab
     Patua One: 400, serif, slab
-    Crete Round: 400, 400i, czech, serif, slab, num-hanging
-    Enriqueta: 400, 700, czech, serif, slab, num-hanging
+    Crete Round: 400, 400i, latin-ext, serif, slab, num-hanging
+    Enriqueta: 400, 700, latin-ext, serif, slab, num-hanging
     Copse: 400, serif, slab, num-aligned
     Bevan: 400, serif, slab
     Alfa Slab One: 400, serif, slab
     Ultra: 400, serif, slab
 
-    Abril Fatface: 400, czech, serif, didone, ligatures
+    Abril Fatface: 400, latin-ext, serif, didone, ligatures
     Arapey: 400, 400i, 700, serif, didone, num-aligned, ligatures
-    Oswald: 400, 700, czech, gothic
+    Oswald: 400, 700, latin-ext, gothic
     Fjalla One: 400, gothic
-    Lobster: 400, czech, script, ligatures
+    Lobster: 400, latin-ext, script, ligatures
     Lobster Two: 400, 400i, 700, script, ligatures
-    Anton: 400, czech
+    Anton: 400, latin-ext
     Passion One: 400, 700
     Changa One: 400, 400i, num-aligned, ligatures
     Amaranth: 400, 400i, 700
-    Signika: 400, 700, czech, num-aligned
+    Signika: 400, 700, latin-ext, num-aligned
     Acme: 400, ligatures
     Overlock: 400, 400i, 700, sans, num-aligned
