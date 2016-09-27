@@ -5,17 +5,17 @@ $(function() {
     pills.click(function() {
         $(this).toggleClass('selected');
 
-        var required = pills.filter(function(i, pill) {
-            return $(pill).hasClass('selected');
-        }).map(function(i, pill) {
-            return $(pill).text();
+        var required = pills.filter(function() {
+            return $(this).hasClass('selected');
+        }).map(function() {
+            return $(this).text();
         });
 
         containers.each(function(i, container) {
             var tags = $(container).attr('data-tags').split(' ');
 
-            var visible = required.map(function(j, requirement) {
-                return tags.indexOf(requirement) != -1;
+            var visible = required.map(function() {
+                return tags.indexOf(this.toString()) != -1;
             }).toArray().reduce(function(prev, cur) {
                 return prev && cur;
             }, true);
