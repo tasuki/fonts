@@ -21,6 +21,8 @@ fonts:
     PT Serif: 400, 400i, 700, czech, serif, transitional, num-aligned, ligatures
     Titillium Web: 400, 400i, 700, czech, sans, num-aligned
     Sorts Mill Goudy: 400, 400i, czech, serif, old-style, num-hanging, ligatures
+    Rakkas: 400, czech, serif, ligatures
+    Eczar: 400, 700, czech, serif, slab
     Noto Serif: 400, 400i, 700, czech, serif, transitional, num-aligned
     Noticia Text: 400, 400i, 700, czech, serif, slab
     Roboto: 400, 400i, 700, czech, sans, num-aligned, ligatures
@@ -37,6 +39,22 @@ fonts:
 
     Cardo: 400, 400i, 700, czech, serif, old-style, num-aligned, ligatures
     Andada: 400, czech, serif, slab, ligatures
+
+    Mate: 400, 400i, serif, slab, num-aligned, num-hanging, ligatures
+    Inika: 400, 700, serif, slab, num-hanging
+    Arbutus Slab: 400, czech, serif, slab
+    Copse: 400, serif, slab, num-aligned
+    Glegoo: 400, 700, czech, serif, slab, num-aligned
+    Suez One: 400, czech, serif, slab, ligatures
+    Slabo 27px: 400, czech, serif, slab, num-hanging
+    Vesper Libre: 400, 700, czech, serif, slab, ligatures
+
+    Gilda Display: 400, serif, old-style, num-aligned, ligatures
+    EB Garamond: 400, czech, serif, old-style, num-hanging
+    Quattrocento: 400, 700, serif, old-style, ligatures
+    Cormorant: 400, 400i, 700, czech, serif, old-style, num-hanging, ligatures
+    Aref Ruqaa: 400, 700, serif, num-aligned
+
     Poly: 400, 400i, serif, transitional, num-hanging, ligatures
     Fjord One: 400, serif, slab, num-hanging
     Merriweather: 400, 400i, 700, czech, serif, transitional, num-hanging
@@ -74,3 +92,4 @@ fonts:
     Amaranth: 400, 400i, 700
     Signika: 400, 700, czech, num-aligned
     Acme: 400, ligatures
+    Overlock: 400, 400i, 700, sans, num-aligned
