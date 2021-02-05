@@ -37,6 +37,7 @@ fonts:
     Archivo Narrow: 400, 400i, 700, latin-ext, sans
     Raleway: 400, 400i, 700, latin-ext, sans, num-hanging, ligatures
     Dosis: 400, 700, latin-ext, sans, ligatures
+    Recursive: 400, 700, sans, num-aligned
 
     Cardo: 400, 400i, 700, latin-ext, serif, old-style, num-aligned, ligatures
     Andada: 400, latin-ext, serif, slab, ligatures
@@ -51,9 +52,9 @@ fonts:
     Vesper Libre: 400, 700, latin-ext, serif, slab, ligatures
 
     Gilda Display: 400, serif, old-style, num-aligned, ligatures
-    EB Garamond: 400, latin-ext, serif, old-style, num-hanging
-    Quattrocento: 400, 700, serif, old-style, ligatures
+    EB Garamond: 400, 400i, 700, latin-ext, serif, old-style, num-aligned
     Cormorant: 400, 400i, 700, latin-ext, serif, old-style, num-hanging, ligatures
+    Quattrocento: 400, 700, serif, old-style, ligatures
     Aref Ruqaa: 400, 700, serif, num-aligned
 
     Poly: 400, 400i, serif, transitional, num-hanging, ligatures
@@ -62,7 +63,7 @@ fonts:
     Libre Baskerville: 400, 400i, 700, latin-ext, serif, old-style, ligatures
 
     Trocchi: 400, latin-ext, serif, didone, num-hanging
-    Kurale: 400, latin-ext, serif
+    Kurale: 400, latin-ext, serif, ligatures
     Almendra: 400, 400i, 700, latin-ext, script, num-hanging
 
     Prociono: 400, serif, transitional, num-aligned, num-hanging, ligatures
@@ -70,6 +71,7 @@ fonts:
     Lora: 400, 400i, 700, latin-ext, serif, transitional
     Domine: 400, 700, latin-ext, serif, transitional, ligatures
     Gentium Book Basic: 400, 400i, 700, latin-ext, serif, transitional, num-aligned
+    Yrsa: 400, 700, latin-ext, serif
 
     Bree Serif: 400, latin-ext, serif, slab
     Arvo: 400, 400i, 700, serif, slab
