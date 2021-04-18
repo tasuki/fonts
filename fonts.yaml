@@ -4,6 +4,7 @@ tags:
     - latin-ext
     - serif
     - sans
+    - mono
     - script
     - old-style
     - transitional
@@ -29,6 +30,7 @@ fonts:
     Roboto Slab: 400, 400i, 700, latin-ext, serif, slab
     Lato: 400, 400i, 700, sans, num-aligned, ligatures
     Ubuntu: 400, 400i, 700, latin-ext, sans, num-aligned
+    Ubuntu Mono: 400, 400i, 700, latin-ext, mono, num-aligned
     Bitter: 400, 400i, 700, serif, slab
     Goudy Bookletter 1911: 400, serif, old-style, num-hanging, ligatures
 
@@ -96,3 +98,13 @@ fonts:
     Signika: 400, 700, latin-ext, num-aligned
     Acme: 400, ligatures
     Overlock: 400, 400i, 700, sans, num-aligned
+
+    Big Shoulders Text: 400, 700, latin-ext, sans
+    Grenze: 400, 400i, 700, latin-ext, serif
+    Dancing Script: 400, 700, latin-ext, script
+
+    Fira Sans: 400, 400i, 700, latin-ext, sans, ligatures
+    Fira Mono: 400, 700, latin-ext, mono, num-aligned
+    IBM Plex Sans: 400, 400i, 700, latin-ext, sans, num-aligned, ligatures
+    IBM Plex Serif: 400, 400i, 700, latin-ext, serif, num-aligned, ligatures
+    IBM Plex Mono: 400, 400i, 700, latin-ext, mono, num-aligned
