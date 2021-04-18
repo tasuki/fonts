@@ -102,6 +102,7 @@ fonts:
     Big Shoulders Text: 400, 700, latin-ext, sans
     Grenze: 400, 400i, 700, latin-ext, serif
     Dancing Script: 400, 700, latin-ext, script
+    Newsreader: 400, 400i, 700, latin-ext, serif, num-aligned, ligatures
 
     Fira Sans: 400, 400i, 700, latin-ext, sans, ligatures
     Fira Mono: 400, 700, latin-ext, mono, num-aligned
