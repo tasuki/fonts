@@ -108,3 +108,4 @@ fonts:
     IBM Plex Sans: 400, 400i, 700, latin-ext, sans, num-aligned, ligatures
     IBM Plex Serif: 400, 400i, 700, latin-ext, serif, num-aligned, ligatures
     IBM Plex Mono: 400, 400i, 700, latin-ext, mono, num-aligned
+    JetBrains Mono: 400, 400i, 700, latin-ext, mono, num-aligned
