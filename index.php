@@ -6,7 +6,7 @@ class Font {
     public function __construct($name, $tagList)
     {
         $this->name = $name;
-        $this->tags = array_map(trim, explode(',', $tagList));
+        $this->tags = array_map('trim', explode(',', $tagList));
     }
 
     public function weights()
