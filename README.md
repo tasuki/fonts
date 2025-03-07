@@ -1,7 +1,5 @@
 ## A comparison of my favourite fonts
 
-1. Have PHP installed.
-2. [Get composer](https://getcomposer.org/).
-3. Run `$ composer install`
-4. Point your web server of choice at index.php
-5. Go.
+1. Install PHP and [Composer](https://getcomposer.org/), eg `apt install php composer`
+2. Run `composer install`
+3. Serve the thing: `php -S localhost:8000`
