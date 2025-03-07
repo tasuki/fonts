@@ -103,6 +103,7 @@ fonts:
     Grenze: 400, 400i, 700, latin-ext, serif
     Dancing Script: 400, 700, latin-ext, script
     Newsreader: 400, 400i, 700, latin-ext, serif, num-aligned, ligatures
+    Bricolage Grotesque: 400, 400i, 700, latin-ext, sans
 
     Fira Sans: 400, 400i, 700, latin-ext, sans, ligatures
     Fira Mono: 400, 700, latin-ext, mono, num-aligned
